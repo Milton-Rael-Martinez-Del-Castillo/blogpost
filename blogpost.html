@@ -1,11 +1,54 @@
+<!doctype html>
 <html>
-     <head>
-         <title>El titulo del post</title>
-         <link rel="stylesheet" href="css/estilos.css" />
+<head>
+
+<style> 
+div {
+   background-color: rgb(0, 34, 128);
+          }
+          
+div.first {
+   opacity: 0.1;
+          }
+          
+div.second {
+   opacity: 0.3;
+          }
+          
+div.third {
+   opacity: 0.6;
+          }
+</style>
+
+<title>El titulo del post</title>
+<link rel="stylesheet" href="css/estilos.css" />
 </head>
 <body>
+   <h1>Transparent Boxes</h1>
+
+<p>When using the opacity property to add transparency to the background of an element, all of its child elements become transparent as well. This can make the text inside a fully transparent element hard to read:</p>
+
+<div class="first">
+  <h1>opacity 0.1</h1>
+</div>
+
+<div class="second">
+  <h1>opacity 0.3</h1>
+</div>
+
+<div class="third">
+  <h1>opacity 0.6</h1>
+</div>
+
+<div>
+  <h1>opacity 1 (default)</h1>
+</div>
+
+
+
    <h1>Aqui vamos a hacer un blog post</h1>    
    <p>Y este es el parrafo de inicio</p> 
    <p class="original" style="background-color:green;"> Párrafo para probar la propiedad de ancho y alto de CSS, sin modificación.</p>
 
+</body>
 </html>
