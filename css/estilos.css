@@ -2,12 +2,12 @@ body
 {
     color: rgb(139, 0, 0);
     text-align: center;
-    font-family: "arial";
+    font-family: "Comic Sans MS";
 }
 
 p {
-    color: blueviolet;
-    font-family: verdana;
+    color: rgb(32, 62, 65);
+    font-family: Arial rgb(51, 1, 1);
     font-size: 50px;
   }
   
