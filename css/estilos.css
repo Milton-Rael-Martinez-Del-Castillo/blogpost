@@ -9,10 +9,10 @@ h2 {
     color: tomato;
 }
 p {
-    color: rgb(32, 62, 65);
+    color: rgb(0, 220, 240);
     font-family: Arial rgb(51, 1, 1);
     font-size: 10px;
-    font-weight: 100;
+    font-weight: 50;
     text-transform: capitalize;
 
   }
